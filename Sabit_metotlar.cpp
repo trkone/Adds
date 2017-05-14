@@ -22,7 +22,7 @@ public:
 int main()
 {
 	const Kare a1(3); // normalde sabit ifade oluşturduğunda hiçbir şekilde fonksiyonlara erişemeyiz ve değiştireceyiz
-					  // donus_tipi fonksiyon() const   yazdığımızda sabit olan fonksyonlara bir şekilde erişebiliriz ama gine değiştiremeyiz.
+					  // donus_tipi fonksiyon_adı() const   yazdığımızda sabit olan fonksyonlara bir şekilde erişebiliriz ama gine değiştiremeyiz.
 	Kare a2(4);
 	
 	cout<<a1.getir()<<endl; // HATA!!  engellemek için hatayı "const" ifadesini getirin "getir()" fonksiyonunun sonuna
